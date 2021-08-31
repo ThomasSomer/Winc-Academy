@@ -1,0 +1,64 @@
+body {
+        background-color: black;
+        font-family: fantasy;
+}
+
+h1, h2, p {
+        text-align: center;
+}
+
+h2, li, p {
+        font-style: normal;
+}
+
+h1 {
+    font-size: 50px;
+    font-style: bold;
+    color:rgb(10, 85, 10);
+}
+
+h2 {
+    font-size: 35px;
+    font-style: italic;
+    color: rgb(15, 90, 15);    
+}
+
+li {
+    font-size: 20px;
+    color: rgb(20, 100, 20);
+}
+
+p {
+    font-size: 18px;
+    color: rgb(25, 105, 25);
+}
+
+a {
+    font-size: 16px;
+    color: rgb(255, 110, 30);
+}
+
+header, main, nav {
+    border-style: ridge;
+    padding: 16px;
+    margin: auto;
+    box-sizing: content-box;
+    width: 750px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    border-radius: 10px;
+    }
+
+main {
+    border-color: rgb(255, 255, 255);
+    top: 25%;
+    }
+
+header {
+    border-color:rgb(255, 0, 0);
+}
+
+nav {
+    border-color: rgb(0, 0, 255);
+}
