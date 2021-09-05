@@ -1,0 +1,182 @@
+body {
+        background-color: black;
+        font-family: fantasy;
+}
+
+h1, h2, li, p, a {line-height: 10px;}
+
+h1, h2, p {
+        text-align: center;
+}
+
+h2, li, p {
+        font-style: normal;
+}
+
+h1 {
+    font-size: 25px;
+    font-style: bold;
+    color:rgb(10, 85, 10);
+}
+
+h2 {
+    font-size: 15px;
+    font-style: italic;
+    color: rgb(15, 90, 15);    
+}
+
+li {
+    font-size: 12px;
+    color: rgb(20, 100, 20);
+}
+
+p {
+    font-size: 10px;
+    color: rgb(25, 105, 25);
+}
+
+a {
+    font-size: 10px;
+    color: rgb(255, 110, 30);
+}
+
+header, main, nav {
+    border-style: ridge;
+    padding: 16px;
+    margin: auto;
+    box-sizing: content-box;
+    width: 75%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    border-radius: 10px;
+    }
+
+main {
+    border-color: rgb(255, 255, 255);
+    top: 25%;
+    }
+
+header {
+    border-color:rgb(255, 0, 0);
+}
+
+nav {
+    border-color: rgb(0, 0, 255);
+}
+
+@media (min-width: 1280px) {
+    body {
+        background-color: rgb(126, 126, 126);
+    }
+    main {
+        border-color: rgb(0, 0, 0);
+        top: 25%;
+        }
+    
+        h1, h2, li, p, a {line-height: 15px;}
+        
+        h1 {
+            font-size: 35px;
+            color:rgb(10, 85, 10);
+        }
+        
+        h2 {
+            font-size: 25px;
+            font-style: italic;
+            color: rgb(15, 90, 10);    
+        }
+        
+        li {
+            font-size: 15px;
+            color: rgb(20, 95, 10);
+        }
+        
+        p {
+            font-size: 14px;
+            color: rgb(25, 100, 10);
+        }
+        
+        a {
+            font-size: 14px;
+            color: rgb(255, 105, 10);
+        }
+}
+
+@media (min-width: 2560px) {
+    main, header, nav {
+        background-color: rgb(255, 255, 255);
+    }
+    
+    h1, h2, li, p, a {line-height: 20px;}
+
+    h1 {
+        font-size: 50px;
+        color:rgb(10, 65, 85);
+    }
+    
+    h2 {
+        font-size: 35px;
+        font-style: italic;
+        color: rgb(15, 70, 85);    
+    }
+    
+    li {
+        font-size: 20px;
+        color: rgb(20, 75, 85);
+    }
+    
+    p {
+        font-size: 18px;
+        color: rgb(25, 80, 85);
+    }
+    
+    a {
+        font-size: 16px;
+        color: rgb(255, 110, 85);
+    }
+    main {
+        border-color: rgb(0, 0, 0);
+        top: 25%;
+        }
+}
+
+/*Desktop
+
+@media (min-width: 640px) {}
+@media (min-width: 1280px) {}
+@media (min-width: 1360px) {}
+@media (min-width: 1600px) {}
+@media (min-width: 1920px) {}
+@media (min-width: 2048px) {}
+@media (min-width: 2560px) {}
+@media (min-width: 3840px) {}
+*/
+
+/*Mobile Android
+
+@media (min-width: 360px) {}
+@media (min-width: 412x) {}
+@media (min-width: 480px) {}
+*/
+
+/*Tabled Android
+
+@media (min-width: 600px) {}
+@media (min-width: 768px) {}
+@media (min-width: 800px) {}
+@media (min-width: 900px) {}
+*/
+
+/*Mobile iOs
+
+@media (min-width: 320px) {}
+@media (min-width: 375px) {}
+@media (min-width: 414px) {}
+*/
+
+/*Tablet iOs
+
+@media (min-width: 768px) {}
+@media (min-width: 1024px) {}
+*/
