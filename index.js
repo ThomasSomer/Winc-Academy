@@ -1,0 +1,18 @@
+console.log("Hello Winc Academy");
+let name = "Thomas";
+console.log(name);
+let number = ("4");
+console.log(number + number);
+let numberFour = (4);
+let numberTwo = (2);
+console.log(numberFour + numberFour);
+console.log(numberFour - numberFour);
+console.log(numberFour / numberFour);
+console.log(numberFour * numberFour);
+console.log(numberFour % numberFour);
+console.log(numberFour + numberTwo);
+console.log(numberTwo - numberFour);
+let age = (35);
+console.log(age);
+let ageText = ("35");
+console.log("Age:" + ageText);
