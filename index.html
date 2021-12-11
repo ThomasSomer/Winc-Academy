@@ -1,17 +1,84 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <!-- hier zet je de code in de head tags -->
-        <title> Winc Academy Opdracht 1. </title>
-    </head>
-    <body>
-       <!-- hier zet je de code in de body tags-->
-       <h1>Winc Academy Opdracht 1:</h1>
-       <p>Voeg de volgende elementen aan je pagina toe:</p>
-       <p>H1<br>H2<br>P<br>HR</p>
 
-       <hr>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="css/resetstyle.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
 
-       <h2>Tweede header.</h2>
-    </body>
+<body class="body">
+
+    <nav class="nav-main">
+        <div class="btn-toggle-nav1" onclick="toggleNav1()" onmouseover="toggleNav1()"></div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="btn-toggle-nav2" onclick="toggleNav2()" onmouseover="toggleNav2()"></div>
+    </nav>
+
+    <aside class="nav-sidebar1">
+        <ul>
+            <li class="white">
+                <span>Change Background Color:</span>
+            </li>
+            <li>
+                <input type="radio" name="colors" id="cyan" class="cyanRbt" onclick="cyanRun()">
+                <button class="cyan" onclick="cyanRun(),toggleNav1()">Cyan</button>
+            </li>
+            <li>
+                <input type="radio" name="colors" id="magenta" class="magentaRbt" onclick="magentaRun()">
+                <button class="magenta" onclick="magentaRun(),toggleNav1()">Magenta</button>
+            </li>
+            <li>
+                <input type="radio" name="colors" id="yellow" class="yellowRbt" onclick="yellowRun()">
+                <button class="yellow" onclick="yellowRun(),toggleNav1()">Yellow</button>
+            </li>
+            <li>
+                <input type="radio" name="colors" id="green" class="greenRbt" onclick="greenRun()">
+                <button class="green" onclick="greenRun(),toggleNav1()">Green</button>
+            </li>
+            <li>
+                <input type="radio" name="colors" id="purple" class="purpleRbt" onclick="purpleRun()">
+                <button class="purple" onclick="purpleRun(),toggleNav1()">Purple</button>
+            </li>
+            <li>
+                <input type="radio" name="colors" id="orange" class="orangeRbt" onclick="orangeRun()">
+                <button class="orange" onclick="orangeRun(),toggleNav1()">Orange</button>
+            </li>
+        </ul>
+
+    </aside>
+
+    <aside class="nav-sidebar2">
+        <ul>
+            <li class="white">
+                <span>Change Text Color:</span>
+            </li>
+            <li>
+                <input type="radio" name="colors" id="whiteText" class="whiteTextRbt">
+                <button class="whiteText" id="whiteText2">White Text</button>
+            </li>
+            <li>
+                <input type="radio" name="colors" id="blackText" class="blackTextRbt">
+                <button class="blackText" id="blackText2">Black Text</button>
+            </li>
+        </ul>
+    </aside>
+
+    <main class="main">
+        <content class="content">
+            <p id="output">Test test test.</p>
+        </content>
+    </main>
+
+    <footer class="footer">
+
+    </footer>
+</body>
+
+<script src="js/index.js"></script>
+
 </html>
